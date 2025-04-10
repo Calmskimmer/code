@@ -1,3 +1,7 @@
+test
+
+
+
 ##How to finetune a model
 Step 1: put a new video in the data/videos folder
 step 2: run the extract_screenshot.py script to extract screenshots
