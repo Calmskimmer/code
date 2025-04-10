@@ -1,0 +1,5 @@
+names:
+- ball
+nc: 1
+train: /Users/micklammers/Documents/Trickshot/data/train/images
+val: /Users/micklammers/Documents/Trickshot/data/valid/images
