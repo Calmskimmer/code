@@ -41,7 +41,7 @@ def calculate_distance(pt1, pt2):
 
 
 if __name__ == '__main__':
-    model = YOLO("/Users/micklammers/Documents/Trickshot/data/runs/detect/train18/weights/best.pt")
+    model = YOLO("best.pt")
     video_path = "videos/vid4_hoograven.mov"
     output_path = "output/output.mp4"
     cap = cv2.VideoCapture(video_path)

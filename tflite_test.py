@@ -3,8 +3,8 @@ import cv2
 import os
 
 # Path to your model and video file
-MODEL_PATH = '/Users/micklammers/Documents/Trickshot/data/ball_best_float32.tflite'
-VIDEO_PATH = '/Users/micklammers/Documents/Trickshot/data/videos/Demo_suitable.mov'
+MODEL_PATH = '/ball_best_float32.tflite'
+VIDEO_PATH = '/test_videos/Demo_suitable.mov'
 OUTPUT_VIDEO_PATH = 'output_video.mp4'
 
 # Load the model for detection

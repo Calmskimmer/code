@@ -3,8 +3,8 @@ import cv2
 import json  # Import JSON module
 
 # Path to your model and video file
-MODEL_PATH = '/Users/micklammers/Downloads/best_float32 (1).tflite'
-VIDEO_PATH = '/Users/micklammers/Documents/Trickshot/data/videos/Atta_ball.mp4'
+MODEL_PATH = '/best_float32 (1).tflite'
+VIDEO_PATH = 'test_videos/Atta_ball.mp4'
 
 # Load the model for detection
 model = YOLO(MODEL_PATH, task='detect')
