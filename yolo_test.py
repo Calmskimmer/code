@@ -5,8 +5,8 @@ from ultralytics import YOLO
 from sort import Sort  # Ensure sort.py is in the same directory
 
 # Load the YOLOv8 .pt model
-YOLO_MODEL_PATH = "run14_640.pt"
-MOV_FILE_PATH = "/test_videos/vid3_school_short.mov"
+YOLO_MODEL_PATH = "run19_640.pt"
+MOV_FILE_PATH = "test_videos/vid3_school_short.mov"
 
 # Initialize the YOLOv8 model
 model = YOLO(YOLO_MODEL_PATH)
